@@ -1,0 +1,18 @@
+name: vijayai_connect
+description: VijayAI Connect – AdMob Ads Ready (your IDs pre-configured)
+publish_to: "none"
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_mobile_ads: ^5.1.0
+  cupertino_icons: ^1.0.6
+  http: ^1.2.2
+
+flutter:
+  uses-material-design: true
+  assets:
+    - config/app_config.json
